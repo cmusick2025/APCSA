@@ -35,7 +35,6 @@ public class DeckOfCards {
         int cardIndex = 0;
         for (int s = 0; s < 4; s++){
             for (int v = 0; v < 13; v++){
-                //Find rows and columns in 2D array
                 if (cardIndex < 20){
                     hands[cardIndex / 5][cardIndex % 5] = deckOfCards[s][v];
                     cardIndex++;
